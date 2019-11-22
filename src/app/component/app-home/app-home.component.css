@@ -1,0 +1,140 @@
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 550px;
+  text-align: center;
+  ssbackground-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption > #title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.caption > #sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.ex-Form {
+  position: absolute;
+  top: 10em;
+  left: 14em;
+  margin: 0 auto;
+}
+.ex-Form > ul {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.example-full-width {
+  min-width: 350px;
+}
+.ex-Form > ul > li #bt-search {
+  background-color: #f17d3a;
+}
+.ex-Form > ul > li {
+  display: inline;
+  margin: 5px;
+}
+.learn-more {
+  text-align: center;
+}
+.learn-more > .caption #title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  color: #0596de;
+}
+
+.learn-more > .list {
+  display: flex;
+  padding: 10px;
+  margin: 9px;
+}
+.learn-more > .list > div {
+  flex: 1;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #435f71;
+}
+.learn-more > .bt #bt-learn {
+  background-color: #e3b13f;
+}
+
+.info {
+  display:  flex;
+  text-align: center;
+  padding: 10px;
+  margin: 9px;
+  background-color: #5BAAE4;
+}
+
+.info > div{
+  flex: 1;
+  margin: 9px;
+  padding: 10px;
+}
+
+.info > div  #high-light{
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.info > div #high-light-bottom{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.footer{
+  background-color: #EEF2F6;
+}
+
+.abt-search{
+  display: flex;
+  margin: 9px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #0596de;
+}
+
+.abt{
+  flex:1;
+}
+.specalist{
+  flex: 1;
+
+}
+
+#hd-title{
+  font-size: 19px;
+  line-height: 20px;
+  color:#435f71;
+}
+hr{
+  width: 80%;
+}
+.copy{
+  text-align: center;
+  color: #435f71;
+  font-size: 14px;
+  line-height: 17px;
+}
+/**
+18px
+25px
+**/

@@ -1,0 +1,19 @@
+.app-bar {
+  display: flex;
+  background-color: #729ED0;
+}
+.logo {
+  flex: 1;
+  margin: 10px;
+}
+.item {
+  flex: 1;
+  text-align: right;
+}
+.item > ul > li {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline;
+  margin:35px;
+}
