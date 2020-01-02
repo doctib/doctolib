@@ -1,0 +1,67 @@
+.bn-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.banner {
+  flex: 2;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  min-height: 580px;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../../../assets/image/doctor_computer.jpg");
+}
+.banner-txt {
+  font-size: 40px;
+  line-height: 50px;
+  color: #0596de;
+}
+.banner_1 {
+  flex: 1;
+  background-color: #f5f5fa;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.ban_1_txt1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #224358;
+  font-family: "Montserrat", sans-serif;
+}
+.ban_1_txt2 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #435f71;
+  font-family: "Montserrat", sans-serif;
+}
+.ban_1_txt3 {
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0596de;
+}
+.banner_2{
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+.ban_1_txt2  {
+  display: flex;
+  flex-direction: row;
+}
+
+#cnt{
+  flex: 3;
+  justify-content: center;
+  text-align: center;
+}
+#cnt > #hd{
+  font-size: 40px;
+  line-height: 60px;
+  color: #0596DE;
+  font-family: "Montserrat", bold;
+}

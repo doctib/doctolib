@@ -1,0 +1,34 @@
+.footer {
+  background-color: #eef2f6;
+}
+
+.abt-search {
+  display: flex;
+  margin: 9px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #0596de;
+}
+
+.abt {
+  flex: 1;
+}
+.specalist {
+  flex: 1;
+}
+
+#hd-title {
+  font-size: 19px;
+  line-height: 20px;
+  color: #435f71;
+}
+hr {
+  width: 80%;
+}
+.copy {
+  text-align: center;
+  color: #435f71;
+  font-size: 14px;
+  line-height: 17px;
+}

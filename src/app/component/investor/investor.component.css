@@ -1,0 +1,77 @@
+.investors {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+.invest-banner {
+  flex: 1;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  color: rgb (255, 255, 255);
+  justify-content: center;
+  min-height: 80vh;
+  background-color: rosybrown;
+}
+
+.invest-banner > p {
+  position: relative;
+  top: 5em;
+}
+
+.invest-banner2 {
+  flex: 5;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.invest-banner2 > p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb (67, 95, 113);
+  justify-content: center;
+  position: relative;
+  padding: 50px;
+  margin: 250px;
+  justify-content: center;
+  align-content: center;
+}
+
+.invest-group {
+  flex: 1;
+  min-height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.invest-angel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+
+#invest-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb (67, 95, 113);
+  text-indent: 5px;
+  word-break: break-all;
+  margin: 15px;
+}
+#invest-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb (34, 67, 88);
+}

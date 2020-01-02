@@ -1,0 +1,48 @@
+.c_content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../assets/image/work.png");
+  min-height: 850px;
+  position: relative;
+}
+.c_banner {
+  flex: 1;
+  position: relative;
+  left: 6em;
+  top: 27em;
+}
+#cap {
+  font-size: 13px;
+  line-height: 14.3px;
+  font-weight: 500;
+  font-family: Clarkson, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+#main_cap {
+  font-size: 54px;
+  line-height: 59.4px;
+  font-weight: 500;
+  font-family: Clarkson, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.c_ban1 {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.c_ban1 > p {
+  margin: 90px;
+  padding: 34px;
+}
+#tit {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 500;
+}
+hr {
+  display: block;
+  width: 650px;
+  height: 3px;
+}
