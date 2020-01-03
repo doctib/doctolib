@@ -65,3 +65,36 @@
   color: #0596DE;
   font-family: "Montserrat", bold;
 }
+hr {
+  display: block;
+  width: 650px;
+ 
+}
+.banner_sol{
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.example-small-box, .example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: auto;
+  width: auto;
+}
+
+.example-large-box {
+  height: auto;
+  width: auto;
+}
+
+

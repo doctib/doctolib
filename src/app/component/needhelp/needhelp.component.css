@@ -48,8 +48,8 @@
   line-height: 20px;
   color: rgb(228, 235, 238);
   display: block;
-  width: 350px;
-  height: 300px;
+  width: 250px;
+  min-height: 50px;
   border: solid 2px #0093da;
   border-radius: 25px;
   margin: 15px;

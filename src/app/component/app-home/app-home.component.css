@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 550px;
   text-align: center;
-  ssbackground-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -24,8 +24,10 @@
 .ex-Form {
   position: absolute;
   top: 10em;
-  left: 14em;
+  left: 33em;
   margin: 0 auto;
+  text-align: center;
+  align-items: center;
 }
 .ex-Form > ul {
   background-color: #ffffff;

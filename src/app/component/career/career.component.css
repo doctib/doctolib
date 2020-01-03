@@ -44,5 +44,46 @@
 hr {
   display: block;
   width: 650px;
-  height: 3px;
+ 
+}
+.carrier {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(228, 228, 228);
+  padding: 10px;
+}
+
+#position {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+#position>p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 15px;
+  color: rgb(34, 34, 34);
+}
+
+#position>p>span {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 70px;
+  color: rgb(104, 100, 100);
+}
+
+#position:hover{
+  background-color: aliceblue;
+}
+
+#position:hover p {
+  color: rgb(34, 34, 34);
+}
+
+#position:hover p>span {
+  color: rgb(34, 34, 34);
 }
